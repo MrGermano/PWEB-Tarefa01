@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+}
+
+body {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #faf9f8;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+.container {
+  display: flex;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  width: 39.125rem;
+  height: 39.125rem;
+}
+
+.pai {
+  display: flex;
+  height: inherit;
+  width: inherit;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.roxo {
+  display: flex;
+  height: 19.1rem;
+  width: 19.1rem;
+  background-color: #5d386b;
+  align-items: center;
+}
+
+.segundo {
+  display: flex;
+  height: 19.1rem;
+  width: 19.1rem;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.terceiro {
+  display: flex;
+  height: 19.1rem;
+  width: 19.1rem;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.ciano {
+  display: flex;
+  height: 19.1rem;
+  width: 19.1rem;
+  background-color: #0ea6e9;
+  align-items: center;
+}
+
+.verde {
+  display: flex;
+  height: 9.1rem;
+  width: 9.1rem;
+  background-color: #93c7b1;
+  align-items: center;
+}

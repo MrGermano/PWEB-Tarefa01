@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+}
+
+body {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #faf9f8;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+.container {
+  display: flex;
+  padding: 0.8rem;
+  background-color: #ffffff;
+  width: 12.688rem;
+  height: 21.813rem;
+}
+
+.cinza {
+  display: flex;
+  height: inherit;
+  width: inherit;
+  background-color: #d0d0d0;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 0.8rem;
+}
+
+.pai1 {
+  margin-top: 1.4rem;
+  display: flex;
+  width: 11.5rem;
+  height: 9.1rem;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 0.6rem;
+
+}
+
+.pai2 {
+  display: flex;
+  width: 11.5rem;
+  height: 9.1rem;
+  align-content: space-between;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.azul {
+  display: flex;
+  width: 11.5rem;
+  height: 4rem;
+  background-color: #9ba4ff;
+  align-items: center;
+  justify-content: center;
+}
+
+.verde {
+  width: 11.5rem;
+  height: 3.5rem;
+  background-color: #c2ff76;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pai3 {
+  width: 11.5rem;
+  height: 5.5rem;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.vermelho {
+  width: 5.6rem;
+  background-color: #ff7171;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rosa {
+  width: 5.6rem;
+  background-color: #ff9bf7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

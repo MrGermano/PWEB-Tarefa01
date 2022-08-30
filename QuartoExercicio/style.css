@@ -1,0 +1,189 @@
+/* ---ATENÇÃO PROF--- Tentei usar o border-style para adicionar as bordas aos elementos, porém quando do zoom na pagina 
+quebra todo o container.  */
+
+
+* {
+  margin: 0px;
+}
+
+body {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #faf9f8;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+.container {
+  display: flex;
+  background-color: #ffffff;
+  width: 328px;
+  height: 173px;
+  gap: 0.3rem;
+}
+
+.vovo1 {
+  display: flex;
+  width: 76px;
+  height: 173px;
+  flex-direction: column;
+  gap: 0.4rem;
+
+}
+
+.ciano {
+  background-color: #15aabf;
+  display: flex;
+  width: 76px;
+  height: 34px;
+}
+
+.azul {
+  background-color: #228be6;
+  display: flex;
+  width: 76px;
+  height: 33px;
+}
+
+.roxo {
+  background-color: #be4bdb;
+  display: flex;
+  width: 76px;
+  height: 96px;
+}
+
+.laranja {
+  background-color: #fe7e14;
+  display: flex;
+  width: 48px;
+  height: 173px
+}
+
+.vovo2 {
+  display: flex;
+  width: 194px;
+  height: 173px;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column
+}
+
+.pai1 {
+  display: flex;
+  width: 194px;
+  height: 76px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 0.3rem;
+}
+
+.laranjafilho {
+  background-color: #fe7e14;
+  display: flex;
+  width: 91px;
+  height: 37px;
+}
+
+.rosafilho {
+  background-color: #e64980;
+  display: flex;
+  width: 97px;
+  height: 37px
+}
+
+.cianofilho {
+  background-color: #15aabf;
+  display: flex;
+  width: 62px;
+  height: 32px
+}
+
+.verdefilho {
+  background-color: #82c91e;
+  display: flex;
+  width: 126px;
+  height: 32px
+}
+
+.pai2 {
+  display: flex;
+  width: 194px;
+  height: 90px;
+  justify-content: space-between;
+}
+
+.filho1 {
+  display: flex;
+  width: 100px;
+  height: 90px;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.laranjaneto {
+  background-color: #fe7e14;
+  display: flex;
+  width: 62px;
+  height: 34px
+}
+
+.cinzaneto {
+  background-color: #ced4da;
+  display: flex;
+  width: 32px;
+  height: 34px
+}
+
+.azulneto {
+  background-color: #4c6ef5;
+  display: flex;
+  width: 59px;
+  height: 50px
+}
+
+.rosaneto {
+  background-color: #be4bdb;
+  display: flex;
+  width: 32px;
+  height: 50px
+}
+
+.filho2 {
+  display: flex;
+  width: 87px;
+  height: 90px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.verdeneto2 {
+  background-color: #12b886;
+  display: flex;
+  width: 41px;
+  height: inherit;
+
+}
+
+.cinzaneto2 {
+  background-color: #868e96;
+  display: flex;
+  width: 39px;
+  height: 41px;
+}
+
+.vermelhoneto2 {
+  background-color: #fc5252;
+  display: flex;
+  width: 39px;
+  height: 42px;
+}
